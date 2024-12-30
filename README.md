@@ -45,7 +45,7 @@ Ce répertoire regroupe tous les ateliers et exercices réalisés, couvrant dive
 │   │   ├── Livre.php
 │   │   ├── Utilisateur.php
 │   ├── index.php
-│   ├── merise
+├── merise
 │   │   ├── ERD.png
 │   │   ├── LibraryManager.sql
 │   │   ├── MCD.png
