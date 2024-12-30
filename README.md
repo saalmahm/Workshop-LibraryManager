@@ -1,37 +1,65 @@
-# 📚 Conception d'une Base de Données - Gestion de Bibliothèque
+# 🛠️Workshop
 
-## 🎯 Objectifs du Projet
+Ce répertoire regroupe tous les ateliers et exercices réalisés, couvrant divers sujets de développement et de modélisation. Voici un aperçu du contenu :
 
-Ce projet consiste à concevoir une base de données pour la gestion d'une bibliothèque. Nous allons suivre les étapes de conception d'une base de données : 
+---
 
-1. **MCD (Modèle Conceptuel de Données)** : Identification des entités, des associations et des cardinalités. ✨
-2. **MLD (Modèle Logique de Données)** : Transformation du MCD en tables relationnelles en respectant les règles de normalisation. 🔄
-3. **MPD (Modèle Physique de Données)** : Implémentation du MLD avec des types de données et des contraintes physiques adaptées à un SGBD. 💻
+## **📂 Contenu**
 
-## 🌍 Contexte
+### **1. Opérations CRUD**
+#### 🖋️ CRUD en PHP
+- Mise en œuvre des fonctionnalités Créer, Lire, Mettre à jour et Supprimer (CRUD) en PHP procédural.
 
-Le projet concerne la gestion d'une bibliothèque où :
+#### 🧩 CRUD en POO
+- Opérations CRUD avancées développées selon les principes de la Programmation Orientée Objet (POO) en PHP.
 
-- Les utilisateurs peuvent emprunter plusieurs **livres**. 📖
-- Les **livres** sont classés par **catégories**. 🗂️
-- Chaque emprunt enregistre la **date de l'emprunt** et la **date de retour prévue**. 📅
-- Les **administrateurs** gèrent les livres et les catégories. 👩‍💼👨‍💼
+---
 
-### 🏷️ Entités principales
+### **2. Modélisation des Données**
+#### 📋 Modélisation MERISE
+- Création de modèles conceptuels et logiques de données selon la méthode MERISE.
 
-- **Utilisateur** : Représente les clients de la bibliothèque. 👤
-- **Livre** : Représente les livres disponibles à l'emprunt. 📚
-- **Catégorie** : Représente les catégories dans lesquelles les livres sont classés. 🏷️
-- **Administrateur** : Représente les administrateurs qui gèrent les livres et les catégories. 👨‍💻👩‍💻
+#### 🗄️ Schéma SQL
+- Scripts SQL pour la conception et la génération de schémas de bases de données.
 
-### 🔗 Relations
+#### 🔗 Diagramme Entité-Association (ERD)
+- Représentation graphique des modèles de données pour illustrer les relations entre entités.
 
-- Un **utilisateur** peut emprunter plusieurs **livres** (relation N:N). 🔄
-- Un **livre** appartient à une **catégorie** (relation 1:N). 🗂️📖
-- Un **administrateur** peut gérer plusieurs **livres** et plusieurs **catégories** (relations N:N). 👨‍💻📚
+---
 
-## 📁 Structure des Fichiers
+### **3. Diagrammes UML**
+#### 🎨 Diagramme de Cas d'Utilisation
+- Diagramme UML représentant les interactions fonctionnelles d'un système.
 
-- **MCD** : Modèle conceptuel de données représentant les entités, relations, et cardinalités. 🖋️
-- **MLD** : Modèle logique de données avec les tables et les relations entre elles. 💾
-- **MPD** : Modèle physique de données incluant les types de données, les clés primaires et étrangères. 🔐
+---
+
+## **📁 Structure du Répertoire**
+```plaintext
+├── CRUD-PHP
+│   ├── ajouter_livre.php
+│   ├── db.php
+│   ├── liste_livres.php
+├── OOP-PHP
+│   ├── classes
+│   │   ├── Bibliotheque.php
+│   │   ├── Livre.php
+│   │   ├── Utilisateur.php
+│   ├── index.php
+│   ├── merise
+│   │   ├── ERD.png
+│   │   ├── LibraryManager.sql
+│   │   ├── MCD.png
+│   │   ├── MLD.png
+│   │   ├── MPD.png
+├── uml
+│   ├── UseCaseDiagram.jpg
+```
+
+---
+
+## **🛠️ Outils Utilisés**
+- PHP pour les opérations CRUD procédurales et POO.
+- SQL pour la création et la gestion des schémas de bases de données.
+- Méthode MERISE pour la modélisation des données.
+- Outils UML comme Draw.io et Lucidchart pour la création de diagrammes.
+
