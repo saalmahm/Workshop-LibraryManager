@@ -53,6 +53,7 @@ Ce répertoire regroupe tous les ateliers et exercices réalisés, couvrant dive
 │   │   ├── MPD.png
 ├── uml
 │   ├── UseCaseDiagram.jpg
+    ├── diagramme de sequence.jpg
 ```
 
 ---
